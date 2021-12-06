@@ -38,6 +38,9 @@ Validation and testing advantages
 #### Testing perspectives
 * Tests for model functionality for inferences with specific model versions
 
+#### References
+
+State of the art use cases [https://paperswithcode.com/sota]
 
 
 
