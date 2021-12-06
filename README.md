@@ -25,10 +25,13 @@ Validation and testing advantages
 * All of these libraries do their binding well, but custom layers could cause some long term pain for support. 
 * Model optimizers with Go bindings - Apache TVM and OpenVINO - Take the model file output and optimize it for a certain hardware architecture - these can be called from Go.
 * Option 2 - Prod Python API being called by Go API serving as a proxy layer on top 
-* Example: Flask/FlaskAPI for Python API. Framework that takes Python model code and create a layer on top that can be called for serving- TF Serving or Seldon
+* Example: Flask or FastAPI for Python API. Framework that takes Python model code and create a layer on top that can be called for serving- TF Serving or Seldon
 * Only works best when the Python API functionality is limited - does one thing well
 * Option-3 : Hosted inference service - directly loads the model and calls the model, Top it by a Go API that calls the inference service and implement other business logic. Example- Hugging Face's Inference API
 
+
+#### Model Decision Tree 
+(Python model vs Go inference calls)[https://github.com/dwhitena/gc2021-ai-workshop/blob/main/model_deploy_decision_tree.pdf]
 
 #### Testing perspectives
 * Tests for model functionality for inferences with specific model versions
