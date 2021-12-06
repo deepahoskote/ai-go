@@ -7,6 +7,8 @@ Original repo can be found here: (Gophercon 2021 AI-Go workshop)[https://github.
 ## Summary - My learnings 
 
 Majority of model trainings happen with Python frameworks - Tensorflow and Pytorch, in majority.
+
+#### Benefits of using Go to present the models in Prod, given that most models are written in Python
 Python being single threaded makes it hard to scale. 
 Go multithreading has been tailored for scalability and robustness to help with obtaining inferences in prod realtime 
 Validation and testing advantages
