@@ -41,6 +41,11 @@ Validation and testing advantages
 #### References
 
 State of the art use cases [https://paperswithcode.com/sota]
+Model hubs - TF model hub [https://www.tensorflow.org/hub]
+Hugging face model hub - [https://huggingface.co/models] - public models that can be used off the shelf - credible models. Allows versioning and uploading models.
+Used distilbert-base-cased-distilled-squad ofr question and answer model
+
+
 
 
 
