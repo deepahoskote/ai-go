@@ -37,6 +37,13 @@ Validation and testing advantages
 
 #### Testing perspectives
 * Tests for model functionality for inferences with specific model versions
+* Challenge is the non-deterministic nature of the model output
+* Testing AI integrations - [https://aclanthology.org/2020.acl-main.442/]
+* MFT - Minimal functionality tests - Verifying the most iobvious behavior - "if my AI model doesnt do this right, it cant be in prod"
+* Invarience tests - Change the inputs so the output wouldnt change - change the order of the input, or change words with something similar 
+* Directionality tests - Change the input to change the output completely 
+* 
+* 
 
 #### References
 
